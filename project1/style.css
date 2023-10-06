@@ -149,3 +149,15 @@ th.yamaha {
 .table-container {
     display: inline-block;
 }
+
+.percentMax {
+    width: 100%;
+}
+
+.percentQuarter {
+    width: 25%;
+}
+
+.percentSeventy {
+    width: 70%;
+}
