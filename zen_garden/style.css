@@ -1,0 +1,129 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background: #c29786;
+    min-height: 50px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a:link {
+    color: white;
+    padding-left: 20px;
+}
+
+a:link {
+    font-weight: none;
+    text-decoration: none;
+    color: #c29786
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #fff url(https://www.shutterstock.com/image-illustration/premium-podium-stand-on-pastel-260nw-1740111674.jpg); 
+    display: block;
+	width: 100%;
+	height: 87px;
+    padding-left: 25px;
+    padding-top: 50px;
+    border-radius: 15%;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.page-wrapper {
+    padding: 0 175px 0 0;  
+	margin: 0; 
+	position: relative;
+}
+
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
+.sidebar .wrapper { 
+    background-color: grey;
+	font: 10px verdana, sans-serif; 
+	padding: 10px; 
+	margin-top: 150px; 
+	width: 130px; 
+	}
+.sidebar h3.select { 
+	margin: 10px 0 5px 0; 
+	width: 97px; 
+	height: 16px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.archives {  
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	height: 14px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.resources { 
+	margin: 25px 0 5px 0; 
+	width:63px; 
+	height: 10px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: white;
+	}
+.sidebar li a:visited {
+	color: #B3AE94;
+	}
+
+
+.extra1 {
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
+}
