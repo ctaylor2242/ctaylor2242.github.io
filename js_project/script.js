@@ -70,7 +70,7 @@ function onButtonSubmit() {
             });
         }
     } else {
-        alert("Please enter valid number")
+      showError("Please enter valid number")
     }
 
 
@@ -82,5 +82,25 @@ function resetGame() {
     document.getElementById("label_num").innerHTML = `Guess a random number between ${guessMin} and ${guessMax}`
     document.getElementById("num").value = ""
     randNum = Math.floor(Math.random() * (max - min + 1)) + min;
-    alert("Game reset. New random number generated")
+    showReset("Game reset. New random number generated")
+}
+
+function showError(message) {
+  const errorBanner = document.getElementById("errorBanner");
+  errorBanner.textContent = message;
+  errorBanner.style.display = "block";
+
+  setTimeout(function() {
+      errorBanner.style.display = "none";
+  }, 3000);
+}
+
+function showReset(message) {
+  const resetBanner = document.getElementById("resetBanner");
+  resetBanner.textContent = message;
+  resetBanner.style.display = "block";
+
+  setTimeout(function() {
+      resetBanner.style.display = "none";
+  }, 3000);
 }

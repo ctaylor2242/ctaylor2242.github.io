@@ -60,10 +60,30 @@ canvas#confetti-canvas {
     pointer-events: none;
 }
 
-.bvambient_particle
-{
-	position: absolute;
-	pointer-events: none;
-	transition: top linear, left linear;
+.bvambient_particle {
+    position: absolute;
+    pointer-events: none;
+    transition: top linear, left linear;
+}
 
+.error-banner {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.reset-banner {
+    background-color: rgb(68, 192, 68);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
 }
