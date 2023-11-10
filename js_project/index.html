@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="./bvambient.js" defer></script>
+    <div id="ambient" style="overflow:hidden; position:absolute; width:100%; height:100vh;"></div>
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <label id="label_num" for="num">Guess a random number between 0 and 100</label>
+        <input type="text" id="num" value="">
+        <button id="submit">Guess</button>
+        <button id="reset">Reset</button>
+    </div>
+</body>
+</html>
